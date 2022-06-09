@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1265px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 0.625rem 1.125rem;
+    border-radius: 0.3125rem;
+    font-size: 0.9375rem;
+    border: 1px solid #B3DCEA;
+    font-weight: 600;
+}
+
+/* HEADER STYLES BEGIN */
+header {
+    padding: 33px 0;
+}
+
+.navbar-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    column-gap: 37px;
+}
+
+.nav-links a {
+    font-size: 0.875rem;
+    color: #4D6175;
+    text-decoration: none;
+}
+
+.navbar-flex .btn {
+    font-weight: 500;
+    font-size: 0.8125rem;
+}
+
+.register-link {
+    font-weight: 600;
+}
+/* HEADER STYLES END */
