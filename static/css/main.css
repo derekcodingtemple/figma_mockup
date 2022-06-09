@@ -16,6 +16,33 @@ body {
     font-weight: 600;
 }
 
+.flex {
+    display: flex;
+}
+
+.col-fluid {
+    min-width: 344px;
+}
+
+.col {
+    width: 100%;
+}
+
+.col ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.divider {
+    border-width: 0;
+    border-top-width: 1px;
+    border-color: #D0E2ED;
+}
+
+.module-spacing {
+    margin-top: 2.94rem;
+}
+
 /* HEADER STYLES BEGIN */
 header {
     padding: 33px 0;
@@ -48,3 +75,28 @@ header {
     font-weight: 600;
 }
 /* HEADER STYLES END */
+
+/* FOOTER STYLES BEGIN */
+footer, footer li a {
+    color: #263E56;
+    font-size: 0.9rem;
+}
+
+footer {
+    font-weight: 500;
+}
+
+footer li a {
+    text-decoration: none;
+}
+
+footer h3 {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+footer .flex {
+    column-gap: 1.75rem;
+}
+
+/* FOOTER STYLES END */
